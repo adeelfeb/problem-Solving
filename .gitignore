@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Compiled output directory
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs and environment
+*.log
+.env
