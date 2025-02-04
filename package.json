@@ -4,7 +4,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "nodemon": "^3.1.9"
