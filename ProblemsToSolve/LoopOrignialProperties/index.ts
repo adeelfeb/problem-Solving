@@ -10,34 +10,6 @@ interface Array<T>{
 
 Array.prototype.ExtraProperty = ["new", 0];
 
-
-
-// interface Array<T>{
-//     getSquareOfArray(callback: (index: number)=> void): number[];
-// }
-
-
-// Array.prototype.getSquareOfArray = function<T extends number>(this: T[], callback:(index: number)=>void){
-    
-//     if(typeof callback !== "function"){
-//         throw "Please provide a callback funtion"
-//     }
-
-//     let squaredArr = []
-//     let length = this.length
-//     let index = 0
-//     while(index < length ){
-//         let square = this[index]  * this[index]
-//         squaredArr.push(square)
-//         index++;
-//     }
-    
-//     return squaredArr
-// }
-
-
-
-
 interface Array<T extends number> {
     getSquareOfArray(): number[];
 }
